@@ -19,7 +19,7 @@ vehiclesLANEI$city <- "Los Angeles County"
 # Combine the two subsets with city name into one data frame
 bothNEI <- rbind(vehiclesBaltimoreNEI,vehiclesLANEI)
 
-png("plot6.png",width=480,height=480,units="px",bg="transparent")
+png("plot6.PNG",width=480,height=480,units="px",bg="transparent")
 
 library(ggplot2)
  
